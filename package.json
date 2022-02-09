@@ -1,8 +1,9 @@
 {
-  "name": "@panosvoudouris/addon-versions",
-  "version": "1.0.1",
+  "name": "@skdmjs/addon-versions",
+  "version": "0.0.1",
   "description": "Navigate different versions of storybook style guides.",
   "main": "dist/register.js",
+  "files": ["dist"],
   "scripts": {
     "start": "npm run storybook",
     "storybook": "start-storybook -p 9001 -s ./.storybook",
@@ -17,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panosvoudouris/storybook-addon-versions.git"
+    "url": "git+https://github.com/svkd9/storybook-addon-versions.git"
   },
   "bugs": {
-    "url": "https://github.com/panosvoudouris/storybook-addon-versions/issues"
+    "url": "https://github.com/svkd9/storybook-addon-versions/issues"
   },
-  "homepage": "https://github.com/panosvoudouris/storybook-addon-versions#readme",
+  "homepage": "https://github.com/svkd9/storybook-addon-versions#readme",
   "keywords": [
     "atomic-design",
     "react",

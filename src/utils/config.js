@@ -8,7 +8,7 @@ const getConfig = (filename = 'storybook-config.json') => (
     } else if (window && window.parent) {
       lastFilename = filename;
       const url = window.parent.location;
-      const location = `${url.protocol}//${url.hostname}:${url.port}/${filename}`;
+      const location = `${url.protocol}//${url.hostname}:${url.port}/${url.pathname}/${filename}`;
 
       fetch(location).then((response) => {
         if (response.ok) {
